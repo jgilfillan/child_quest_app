@@ -26,18 +26,18 @@ Goal Quest Adventure is an interactive web-based game that turns your personal g
    ```
    cd goal-quest-adventure
    ```
-3. Open `index.html` in your web browser to start the game.
+3. Open `landing.html` in your web browser to start the game.
 
 ## Usage
 
-1. Add your personal goals as quests in the game. The password for the parent page is: parentpassword
-2. Complete quests to see your character and progress bar advance.
+1. From the Parent's page, add goals for your child as quests in the game. The password for the parent page is: parentpassword
+2. From the Child's page, complete quests to see the progress bar advance.
 3. Earn a reward upon completing all quests!
 
 ## Project Structure
 
 - `index.html`: Main game interface
-- `landing.html`: Landing page (not included in the provided code snippet)
+- `landing.html`: Landing page
 - `styles.css`: CSS styles for the game
 - `script.js`: JavaScript file for game logic and interactivity
 
