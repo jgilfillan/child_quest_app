@@ -30,7 +30,7 @@ Goal Quest Adventure is an interactive web-based game that turns your personal g
 
 ## Usage
 
-1. Add your personal goals as quests in the game.
+1. Add your personal goals as quests in the game. The password for the parent page is: parentpassword
 2. Complete quests to see your character and progress bar advance.
 3. Earn a reward upon completing all quests!
 
