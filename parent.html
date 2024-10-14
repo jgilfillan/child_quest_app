@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Goal Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="password-prompt" class="password-prompt">
+        <h2>Enter Parent Password</h2>
+        <form id="password-form" onsubmit="return checkPassword(event)">
+            <input type="password" id="password-input" placeholder="Enter password">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="content" class="game-container" style="display: none;">
+        <h1>Parent Goal Management</h1>
+        <div class="goals-list">
+            <h2>Current Goals</h2>
+            <ul id="goals">
+                <!-- Goals will be added here dynamically -->
+            </ul>
+        </div>
+        <div class="add-goal">
+            <input type="text" id="new-goal" placeholder="Enter a new goal">
+            <button onclick="addGoal()">Add Goal</button>
+        </div>
+        <div class="navigation">
+            <a href="landing.html" class="nav-button">Back to Landing Page</a>
+        </div>
+    </div>
+    <script src="parent.js"></script>
+</body>
+</html>
